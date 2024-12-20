@@ -15,7 +15,7 @@ on:
         required: true
 jobs:
   steps:
-    deploy:
+    - name: deploy
       uses: gmaxey/reusableworkflows/MyAppDeploy.yaml
       with:
         artifactName: ${{ inputs.artifactName }}
