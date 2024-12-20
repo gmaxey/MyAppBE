@@ -12,3 +12,6 @@ jobs:
         shell: sh
         run: |
           echo "hello world"
+    reuseable:
+      needs: build
+      uses: gmaxey/reusableworkflows/env.yaml
