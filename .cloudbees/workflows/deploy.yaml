@@ -18,5 +18,5 @@ jobs:
     uses: gmaxey/reusableworkflows/MyAppDeploy.yaml
     with:
       artifactName: ${{ inputs.artifactName }}
-      artifactVersions: ${{ inputs.artifactVersion }}
+      artifactVersion: ${{ inputs.artifactVersion }}
       environment: ${{ inputs.environment }}
