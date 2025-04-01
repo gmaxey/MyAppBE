@@ -10,4 +10,5 @@ jobs:
     uses: gmaxey/reusableworkflows/MyAppBuild.yaml
     with:
       artifactName: MyAppBE
-      baseVersion: 2.2.0
+      baseVersion: 2.3.0
+      digest: sha256:be123abcdef===
